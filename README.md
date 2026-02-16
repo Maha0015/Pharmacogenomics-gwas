@@ -3,13 +3,7 @@ Genome-wide association study identifying genetic variants associated with drug 
 
 # Pharmacogenomics Genome-Wide Association Study (GWAS)
 
-**Identifying genetic variants associated with drug response phenotypes to enable precision medicine.**
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Bioinformatics](https://img.shields.io/badge/Field-Pharmacogenomics-green.svg)
-![Status](https://img.shields.io/badge/Status-Complete-success.svg)
-
-## 📋 Overview
+##  Overview
 
 This project performs a comprehensive genome-wide association study (GWAS) to identify genetic variants that influence individual responses to medications. By analyzing pharmacogenomic datasets, we can predict drug efficacy, adverse reactions, and optimal dosing strategies based on a patient's genetic profile.
 
@@ -25,7 +19,7 @@ This project performs a comprehensive genome-wide association study (GWAS) to id
 - **Functional Annotation**: Mapping variants to genes and pathways
 - **Clinical Interpretation**: Translating findings to actionable recommendations
 
-## 🔬 Methods & Workflow
+##  Methods & Workflow
 
 ### Analysis Pipeline
 
@@ -61,7 +55,7 @@ This project performs a comprehensive genome-wide association study (GWAS) to id
 - **Visualization**: Matplotlib, Seaborn (Manhattan plots, QQ plots)
 - **Genomic Databases**: PharmGKB, ClinVar, dbSNP
 
-## 📊 Key Results
+##  Key Results
 
 ### Discovery Findings
 - **Genome-wide significant loci**: Identified variants reaching p < 5×10⁻⁸
@@ -83,7 +77,7 @@ This project performs a comprehensive genome-wide association study (GWAS) to id
 - Regional association plots (LocusZoom-style)
 - Heatmaps of drug-gene interactions
 
-## 🚀 Usage
+##  Usage
 
 ### Prerequisites
 ```bash
@@ -112,7 +106,7 @@ SAMPLE001,responsive,45,M,0.012,-0.008,0.003
 SAMPLE002,non-responsive,52,F,-0.015,0.021,-0.001
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 pharmacogenomics-gwas/
@@ -121,7 +115,7 @@ pharmacogenomics-gwas/
 └── requirements.txt                   # Python dependencies
 ```
 
-## 📂 Data Sources
+##  Data Sources
 
 ### Datasets Used
 This analysis was performed on datasets from the following sources:
@@ -154,7 +148,7 @@ Raw genomic data files (multi-GB VCF files) are not included in this repository 
 
 **Note:** All analysis outputs, visualizations, and results are preserved in the Jupyter notebook, so you can review the complete analysis without re-running the code.
 
-## 🧬 Biological & Clinical Significance
+##  Biological & Clinical Significance
 
 ### Pharmacogenomics in Precision Medicine
 
@@ -165,21 +159,8 @@ This analysis contributes to **precision medicine** by:
 3. **Adverse Event Prevention**: Avoiding drugs likely to cause harm
 4. **Cost Reduction**: Eliminating trial-and-error prescribing
 
-### Example Clinical Scenarios
 
-**CYP2C19 and Clopidogrel (Plavix)**
-- Poor metabolizers: Reduced platelet inhibition → increased cardiovascular events
-- Recommendation: Alternative antiplatelet therapy (ticagrelor, prasugrel)
-
-**CYP2D6 and Codeine**
-- Ultra-rapid metabolizers: Excessive morphine production → respiratory depression
-- Recommendation: Avoid codeine, use alternative analgesics
-
-**TPMT and Azathioprine**
-- Deficient activity: Severe bone marrow suppression
-- Recommendation: 10-fold dose reduction or alternative immunosuppressant
-
-## 📚 Dependencies
+##  Dependencies
 
 See `requirements.txt` for complete list. Main packages:
 ```
@@ -197,16 +178,8 @@ jupyter>=1.0.0
 - BCFtools 1.15+ (for VCF manipulation)
 - Tabix (for indexed VCF files)
 
-## 🎓 Academic Context
 
-This project was completed as part of the Computational Genomics curriculum (BIOS 4150/BIOL 6150) at Georgia Institute of Technology. It demonstrates:
-- GWAS methodology and best practices
-- Population genetics principles
-- Statistical genomics and multiple testing
-- Clinical pharmacogenomics interpretation
-- Integration of genomic databases and clinical guidelines
-
-## 📖 References & Resources
+##  References & Resources
 
 ### Key Pharmacogenomic Databases
 - **PharmGKB**: https://www.pharmgkb.org/
@@ -218,30 +191,4 @@ This project was completed as part of the Computational Genomics curriculum (BIO
 - Relling MV, Evans WE. "Pharmacogenomics in the clinic." *Nature* (2015)
 - Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines
 
-## 👤 Author
-
-**Mahalakshmi Rajan**  
-MS Bioinformatics, Georgia Institute of Technology  
-📧 rajanmaha2000@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/mahalakshmi-rajan) | [GitHub](https://github.com/YOUR-USERNAME)
-
-### Research Interests
-- Precision medicine and pharmacogenomics
-- GWAS and complex trait genetics
-- Clinical implementation of genomic testing
-- Drug-gene interactions and adverse events
-
-## 📄 License
-
-This project is available under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Course Instructor: Dr. King Jordan (Georgia Tech)
-- Data sources: 1000 Genomes Project, PharmGKB
-- Tools: PLINK, BCFtools, Python bioinformatics community
-
 ---
-
-*This analysis supports the broader goal of implementing pharmacogenomic testing in clinical practice to improve drug safety and efficacy.*
-
